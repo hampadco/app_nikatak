@@ -1,0 +1,213 @@
+﻿@{
+    Layout=null;
+}
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>تکنولوژی هوشمند نیکا</title>
+
+    <!-- manifest meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/img/favicon180.png" sizes="180x180">
+    <link rel="icon" href="/img/favicon16.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/img/favicon16.png" sizes="16x16" type="image/png">
+
+    <!-- Material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- swiper CSS -->
+    <link href="/vendor/swiper/css/swiper.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet" >
+</head>
+
+<body class="body-scroll d-flex flex-column h-100 menu-overlay" style="direction: rtl;text-align: right">
+ 
+       
+  
+
+    <!-- screen loader -->
+    
+    <!-- Begin page content -->
+    <main class="flex-shrink-0 main">
+        <!-- Fixed navbar -->
+        <header class="header">
+            <div class="row">
+                <div class="col-auto px-0">
+                    <button class="menu-btn btn btn-40 btn-link back-btn" type="button">
+                          <span class="material-icons">keyboard_arrow_right</span>
+                    </button>
+                </div>
+                <div class="text-left col align-self-center">
+                    <a class="navbar-brand" href="#">
+                        <h5 class="mb-0">   موجودی حساب</h5>
+                    </a>
+                </div>
+                <div class="ml-auto col-auto">
+                    <a href="/home/profile" class="avatar avatar-30 shadow-sm rounded-circle ml-2">
+                        <figure class="m-0 background">
+                            <img src="/img/user1.png" alt="">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="container-fluid h-100 loader-display">
+        <div class="row h-100">
+            <div class="align-self-center col">
+                <div class="logo-loading">
+                    <div class="icon icon-100 mb-4 rounded-circle">
+                        <img src="/img/fev.png" alt="" class="w-100">
+                    </div>
+                    <h4 class="text-default"> نیکاتک</h4>
+                    <p class="text-secondary">تکنولوژی هوشمند نیکا</p>
+                    <div class="loader-ellipsis">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- page content start -->
+        <div class="container mb-4 text-center text-white">
+            <div class="row">
+                <div class="col col-sm-8 col-md-6 col-lg-5 mx-auto">
+                    <img src="/img/refer.png" alt="" class="mw-100 mb-4">
+                    <h5 style="text-align: center; font-size: 15px;">
+. طبق دستور بانک مرکزی,دریافت موجودی تنها با استفاده از رمز دوم پویا و برای کارت های متعلق به صاحب شماره موبایل امکان پذیر است<br></h5>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="container mb-4">
+                <div class="card border-0 mb-3">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-auto pr-0">
+                         
+                                    <p> اطلاعات کارت خود وارد نمایید</p>
+                              
+                            </div>
+                            @* <div class="col-auto align-self-center">
+                                <h6 class="mb-1">رجوع کنید و پاداش بگیرید</h6>
+                                <p class="small text-secondary">پیوند مراجعه خود را به اشتراک بگذارید و شروع به کسب درآمد کنید</p>
+                            </div> *@
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-4">
+                <div class="alert alert-success d-none" id="successmessage"> کارمزد1206ریال توسط بانک ضادر کننده دریافت می شود.</div>
+              
+                   <div class="input-group mb-2">
+                    <input type="text" class="form-control" placeholder="شماره کارت   0000-0000-0000-0000">
+                    <div class="input-group-append">
+                     
+                    </div>
+             
+                          <div class="input-group mb-2 mt-2">
+                    <input type="text" class="form-control" placeholder="رمز دوم " >
+                    <div class="input-group-append">
+                        <button class="btn btn-dark rounded" type="button" id="coplink"> درخواست رمز پویا</button>
+                    </div>
+                </div>
+                </div>
+                   <div class="input-group mb-2">
+                    <input type="text" class="form-control" placeholder="CVV2 " >
+                    <div class="input-group-append">
+                   
+                    </div>
+                
+                </div>
+                  <div class="form-group float-label active">
+                            <div class="row">
+                                <div class="col">
+                                    <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select class="form-control">
+                                        <option>1399</option>
+                                        <option>1398</option>
+                                        <option>1397</option>
+                                        <option>1396</option>
+                                        <option>1395</option>
+                                        <option>1394</option>
+                                        <option>1393</option>
+                                        <option>1392</option>
+                                        <option>1391</option>
+                                        <option>1390</option>
+                                        <option>1389</option>
+                                        <option>1388</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <label class="form-control-label">ماه و سال انقضا</label>
+                        </div>
+              
+                      
+                
+
+            </div>
+           
+       
+             
+         <button type="button" class="btn btn-dark btn-lg btn-block  rounded"> استعلام </button>
+        
+        </div>
+    </main>
+
+
+    <!-- Required jquery and libraries -->
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- cookie js -->
+    <script src="/js/jquery.cookie.js"></script>
+
+    <!-- Swiper slider  js-->
+    <script src="/vendor/swiper/js/swiper.min.js"></script>
+
+    <!-- Customized jquery file  -->
+    <script src="/js/main.js"></script>
+    <script src="/js/color-scheme-demo.js"></script>
+
+
+    <!-- page level custom script -->    
+    <script src="/js/app.js"></script>
+    
+
+</body>
+
+</html>
